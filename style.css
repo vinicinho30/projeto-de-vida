@@ -31,3 +31,10 @@ body {
     border-left: 2px solid var(--botao-ativo);
     border-right: 2 px solid var(--botao-ativo);
     border-top: none;
+.botoes {
+    display: block;
+}
+    @madia screen and (min-width: 768px) {
+        .display: flex;
+}
+}
