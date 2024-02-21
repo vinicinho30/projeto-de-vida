@@ -13,7 +13,21 @@ body {
 }
 .ativo{
     background-color:var(--botao-ativo);
-    border-bottom: 4px solid var(--verde
+    border-bottom: 4px solid var(--verde)
 .titulo-principal span {
-    color: var(--verde);
+    color: var (--verde);
 }
+.botao {
+    font-family: <<Crakra Petch>>,sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco) 
+
+
+
+
+
+
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2 px solid var(--botao-ativo);
+    border-top: none;
