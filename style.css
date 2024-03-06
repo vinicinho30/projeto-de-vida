@@ -76,6 +76,14 @@ padding: 40px;
 .aba-conteudo{
     display: none;
 }
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-aling: center; 
+}
+.aba-conteudo-titulo-secundario{
+        tet-align: center;
+        color: var(--verde)
+            text-transform: uppercase;
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
