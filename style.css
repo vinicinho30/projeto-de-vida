@@ -73,6 +73,9 @@ padding: 40px;
     .aba-conteudo.ativo{
         display:blcock;
     }
+.aba-conteudo{
+    display: none;
+}
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
