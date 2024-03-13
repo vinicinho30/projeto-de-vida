@@ -41,3 +41,8 @@ return "Prazo Finalizado";
 }
 }
 
+function atualizarCronometro(){
+    for (let i=0; i<contadores.length;i++){
+        contadores[i].textContent = calculaTempo(tempo[i]);
+    }
+}
