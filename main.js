@@ -35,12 +35,20 @@ function calculaTempo(tempoObjetivo) {
     segundos %= 60;
     minutos %= 60;
     horas %= 24;
+    inf(tempofinal > 0 ){
+        
    
- return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+ return [dias,horas,minutos,segundos];
     
 } else {
-    return "Prazo Finalizado";
+    return [0,0,0,0];
     }
+    function atualizaCronometro(){
+        
+        document.getElementById("dias0").taxtContent = calculaTempo(tempos[0][0];
+        document.getElementById("horas0").taxtContent = calculaTempo(tempos[0][1];
+        document.getElementById("min0").taxtContent = calculaTempo(tempos[0][2];
+        document.getElementById("seg0").taxtContent = calculaTempo(tempos[0][3];
 }
 
 funtion atualiarCronometro(){
