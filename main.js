@@ -45,10 +45,10 @@ function calculaTempo(tempoObjetivo) {
     }
     function atualizaCronometro(){
         
-        document.getElementById("dias0").taxtContent = calculaTempo(tempos[0][0];
-        document.getElementById("horas0").taxtContent = calculaTempo(tempos[0][1];
-        document.getElementById("min0").taxtContent = calculaTempo(tempos[0][2];
-        document.getElementById("seg0").taxtContent = calculaTempo(tempos[0][3];
+        document.getElementById("dias0"+i).taxtContent = calculaTempo(tempos[i][0];
+        document.getElementById("horas0"+i).taxtContent = calculaTempo(tempos[i][1];
+        document.getElementById("min0"+i).taxtContent = calculaTempo(tempos[i][2];
+        document.getElementById("seg0"+i).taxtContent = calculaTempo(tempos[i][3];
 }
 
 funtion atualiarCronometro(){
