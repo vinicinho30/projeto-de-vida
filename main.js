@@ -53,7 +53,10 @@ function calculaTempo(tempoObjetivo) {
 
 funtion atualiarCronometro(){
 }
-}
+    function comecaCronometro(){
+        atualizaCronometro();
+        setInterval(atualizaCronometro,1000);
+    }
 funtion comecaCronometro(){
     atualizaCronometro();
     setInterval(atualiaCronometro,1000);
