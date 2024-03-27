@@ -52,8 +52,6 @@ function calculaTempo(tempoObjetivo) {
 }
 
 funtion atualiarCronometro(){
-for (let i=0; i <contadores.lenght;i==){
-    cotadores[i].textContent= calculaTempo(tempo[i]);
 }
 }
 funtion comecaCronometro(){
